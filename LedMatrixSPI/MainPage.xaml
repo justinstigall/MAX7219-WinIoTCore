@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="LedMatrixSPI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LedMatrixSPI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid HorizontalAlignment="Left" Height="1080" VerticalAlignment="Top" Width="1920" Background="White">
+        <Grid x:Name="grdMatrix" HorizontalAlignment="Left" Height="720" Margin="565,125,0,0" VerticalAlignment="Top" Width="720" Background="Black" BorderBrush="Red" BorderThickness="-5,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+        </Grid>
+        <Button x:Name="button" Content="Scroll Right" HorizontalAlignment="Left" Margin="165,145,0,0" VerticalAlignment="Top" Click="button_Click" Height="95" Width="185"/>
+    </Grid>
+</Page>
