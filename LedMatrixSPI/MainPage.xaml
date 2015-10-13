@@ -30,5 +30,6 @@
             </Grid.RowDefinitions>
         </Grid>
         <Button x:Name="button" Content="Scroll Right" HorizontalAlignment="Left" Margin="165,145,0,0" VerticalAlignment="Top" Click="button_Click" Height="95" Width="185"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="130,328,0,0" VerticalAlignment="Top" Width="275" Height="47" Minimum="1" ValueChanged="slider_ValueChanged" Value="20"/>
     </Grid>
 </Page>
